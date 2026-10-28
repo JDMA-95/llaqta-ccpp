@@ -1,0 +1,111 @@
+﻿variable,etiqueta,capa_origen,tipo,nulos
+codigo_ccpp,"Código de centro poblado (ubigeo + codccpp, 10 dígitos)",calculada,str,0
+ubigeo,Ubigeo distrital (6 dígitos),vivienda,str,0
+codccpp,Código del CP dentro del distrito,vivienda,str,0
+nombccpp,Nombre del centro poblado,vivienda,str,0
+nombdist,Distrito,vivienda,str,0
+nombprov,Provincia,vivienda,str,0
+nombdep,Departamento,vivienda,str,0
+area_ambito,"Ámbito (1 urbano, 2 rural)",vivienda,int32,0
+area_ambito_texto,Ámbito,vivienda,str,0
+poblacion_censada,Población censada,base,int32,0
+rango_poblacional,Rango poblacional (código),base,int32,0
+rango_poblacional_texto,Rango poblacional,base,str,0
+lon,Longitud (WGS84),calculada,float64,0
+lat,Latitud (WGS84),calculada,float64,0
+url_reporte,Ficha censal del CP en GEOPERÚ,base,str,0
+total_viviendas_universo,Viviendas (universo),vivienda,float64,9911
+n_agua_red_publica,N.º de viviendas con agua por red pública,vivienda,float64,9911
+pct_agua_red_publica,% de viviendas con agua por red pública,vivienda,float64,9911
+n_agua_pilon_publico,N.º de viviendas con agua por pilón o pileta pública,vivienda,float64,9911
+pct_agua_pilon_publico,% de viviendas con agua por pilón o pileta pública,vivienda,float64,9911
+n_agua_no_potable,N.º de viviendas sin abastecimiento de agua potable,vivienda,float64,9911
+pct_agua_no_potable,% de viviendas sin abastecimiento de agua potable,vivienda,float64,9911
+n_agua_continua,N.º de viviendas con agua todos los días (sobre red o pilón),vivienda,float64,9911
+pct_agua_continua,% de viviendas con agua todos los días (sobre red o pilón),vivienda,float64,47252
+n_universo_agua_red_pilon,Viviendas con agua por red o pilón (universo de continuidad),vivienda,float64,9911
+prom_horas_agua_dia,Horas promedio de agua al día (viviendas sin servicio continuo),vivienda,float64,72809
+suma_horas_agua_dia,Suma de horas de agua al día,vivienda,float64,72809
+n_universo_horas_agua_dia,Viviendas que reportan horas de agua (universo),vivienda,float64,9911
+prom_min_acarreo_agua,Minutos promedio de acarreo de agua,vivienda,float64,47661
+suma_min_acarreo_agua,Suma de minutos de acarreo de agua,vivienda,float64,47661
+n_universo_min_acarreo_agua,Viviendas que acarrean agua (universo),vivienda,float64,9911
+n_saneamiento_adecuado,N.º de viviendas con saneamiento adecuado,vivienda,float64,9911
+pct_saneamiento_adecuado,% de viviendas con saneamiento adecuado,vivienda,float64,9911
+n_saneamiento_sin_conexion,N.º de viviendas sin servicios higiénicos,vivienda,float64,9911
+pct_saneamiento_sin_conexion,% de viviendas sin servicios higiénicos,vivienda,float64,9911
+n_electricidad_red_publica,N.º de viviendas con electricidad de red pública,vivienda,float64,9911
+pct_electricidad_red_publica,% de viviendas con electricidad de red pública,vivienda,float64,9911
+n_sin_electricidad,N.º de viviendas sin alumbrado eléctrico,vivienda,float64,9911
+pct_sin_electricidad,% de viviendas sin alumbrado eléctrico,vivienda,float64,9911
+n_electricidad_alternativa,N.º de viviendas con energía solar o eólica,vivienda,float64,9911
+pct_electricidad_alternativa,% de viviendas con energía solar o eólica,vivienda,float64,9911
+n_pared_precaria,N.º de viviendas con pared de material precario,vivienda,float64,9911
+pct_pared_precaria,% de viviendas con pared de material precario,vivienda,float64,9911
+n_pared_noble,N.º de viviendas con pared de material noble,vivienda,float64,9911
+pct_pared_noble,% de viviendas con pared de material noble,vivienda,float64,9911
+n_techo_precario,N.º de viviendas con techo de material precario,vivienda,float64,9911
+pct_techo_precario,% de viviendas con techo de material precario,vivienda,float64,9911
+n_techo_noble,N.º de viviendas con techo de material noble,vivienda,float64,9911
+pct_techo_noble,% de viviendas con techo de material noble,vivienda,float64,9911
+n_piso_tierra,N.º de viviendas con piso de tierra,vivienda,float64,9911
+pct_piso_tierra,% de viviendas con piso de tierra,vivienda,float64,9911
+n_piso_noble,N.º de viviendas con piso de material noble,vivienda,float64,9911
+pct_piso_noble,% de viviendas con piso de material noble,vivienda,float64,9911
+severidad_precariedad_prom,"Índice de severidad de precariedad de la vivienda (promedio, 0-3)",vivienda,float64,9911
+n_severidad_0,N.º de viviendas con severidad de precariedad 0,vivienda,float64,9911
+pct_severidad_0,% de viviendas con severidad de precariedad 0,vivienda,float64,9911
+n_severidad_1,N.º de viviendas con severidad de precariedad 1,vivienda,float64,9911
+pct_severidad_1,% de viviendas con severidad de precariedad 1,vivienda,float64,9911
+n_severidad_2,N.º de viviendas con severidad de precariedad 2,vivienda,float64,9911
+pct_severidad_2,% de viviendas con severidad de precariedad 2,vivienda,float64,9911
+n_severidad_3,N.º de viviendas con severidad de precariedad 3,vivienda,float64,9911
+pct_severidad_3,% de viviendas con severidad de precariedad 3,vivienda,float64,9911
+total_hogares_universo,Hogares (universo),hacinamiento,float64,9901
+n_cocina_energia_limpia,N.º de hogares que cocinan con energía limpia,hogar,float64,9901
+pct_cocina_energia_limpia,% de hogares que cocinan con energía limpia,hogar,float64,9901
+n_cocina_energia_contaminante,N.º de hogares que cocinan con energía contaminante,hogar,float64,9901
+pct_cocina_energia_contaminante,% de hogares que cocinan con energía contaminante,hogar,float64,9901
+n_cocina_lena,N.º de hogares que cocinan con leña,hogar,float64,9901
+pct_cocina_lena,% de hogares que cocinan con leña,hogar,float64,9901
+n_internet_fijo,N.º de hogares con internet fijo,hogar,float64,9901
+pct_internet_fijo,% de hogares con internet fijo,hogar,float64,9901
+n_internet_movil,N.º de hogares con internet móvil,hogar,float64,9901
+pct_internet_movil,% de hogares con internet móvil,hogar,float64,9901
+n_sin_internet,N.º de hogares sin internet,hogar,float64,9901
+pct_sin_internet,% de hogares sin internet,hogar,float64,9901
+n_tv_cable,N.º de hogares con TV por cable o satelital,hogar,float64,9901
+pct_tv_cable,% de hogares con TV por cable o satelital,hogar,float64,9901
+n_telefono_celular,N.º de hogares con teléfono celular,hogar,float64,9901
+pct_telefono_celular,% de hogares con teléfono celular,hogar,float64,9901
+n_telefono_fijo,N.º de hogares con teléfono fijo,hogar,float64,9901
+pct_telefono_fijo,% de hogares con teléfono fijo,hogar,float64,9901
+n_con_computadora,"N.º de hogares con computadora, laptop o tablet",hogar,float64,9901
+pct_con_computadora,"% de hogares con computadora, laptop o tablet",hogar,float64,9901
+n_con_refrigeradora,N.º de hogares con refrigeradora o congeladora,hogar,float64,9901
+pct_con_refrigeradora,% de hogares con refrigeradora o congeladora,hogar,float64,9901
+n_con_vehiculo_motorizado,N.º de hogares con auto o moto,hogar,float64,9901
+pct_con_vehiculo_motorizado,% de hogares con auto o moto,hogar,float64,9901
+n_con_transporte_fluvial,"N.º de hogares con lancha, bote o canoa",hogar,float64,9901
+pct_con_transporte_fluvial,"% de hogares con lancha, bote o canoa",hogar,float64,9901
+n_residuos_manejo_formal,N.º de hogares con manejo formal de residuos sólidos,hogar,float64,9901
+pct_residuos_manejo_formal,% de hogares con manejo formal de residuos sólidos,hogar,float64,9901
+n_residuos_riesgo_ambiental,N.º de hogares con manejo de residuos de riesgo ambiental,hogar,float64,9901
+pct_residuos_riesgo_ambiental,% de hogares con manejo de residuos de riesgo ambiental,hogar,float64,9901
+n_bano_exclusivo,N.º de hogares con baño de uso exclusivo,hogar,float64,9901
+pct_bano_exclusivo,% de hogares con baño de uso exclusivo,hogar,float64,19003
+n_universo_bano,Hogares con baño (universo de uso exclusivo),hogar,float64,9901
+n_tenencia_propia,N.º de hogares con vivienda propia,hogar,float64,9901
+pct_tenencia_propia,% de hogares con vivienda propia,hogar,float64,9901
+n_tenencia_alquilada,N.º de hogares con vivienda alquilada,hogar,float64,9901
+pct_tenencia_alquilada,% de hogares con vivienda alquilada,hogar,float64,9901
+prom_personas_hogar,Promedio de personas por hogar,hogar,float64,9901
+razon_sexo_hogar,Razón de sexo en hogares (hombres por mujer),hogar,float64,15707
+suma_hombres,Hombres en hogares,hogar,float64,9901
+suma_mujeres,Mujeres en hogares,hogar,float64,9901
+hac_total_hogares_universo,Hogares (universo de hacinamiento),hacinamiento,float64,9911
+personas_por_habitacion,Personas por habitación,hacinamiento,float64,9911
+suma_personas,Personas (universo de hacinamiento),hacinamiento,float64,9911
+suma_habitaciones,Habitaciones,hacinamiento,float64,9911
+n_hacinamiento_critico,N.º de hogares en hacinamiento crítico,hacinamiento,float64,9911
+pct_hacinamiento_critico,% de hogares en hacinamiento crítico,hacinamiento,float64,9911
